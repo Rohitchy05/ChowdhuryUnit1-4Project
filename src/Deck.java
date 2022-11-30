@@ -40,7 +40,6 @@ public class Deck {
     public int getTotalCards()
     {
         return cards.size();
-        //we could use this method when making
-        //a complete poker game to see if we needed a new deck
+        //use this to make a complete poker game to see if we needed a new deck
     }
 }
