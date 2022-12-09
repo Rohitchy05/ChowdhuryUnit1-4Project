@@ -10,7 +10,7 @@ public class Hand {
         }
 
         int[] ranks = new int[14];
-        //miscellaneous cards that are not otherwise significant
+        //miscellaneous cards
         int[] orderedRanks = new int[5];
         boolean flush = true, straight = false;
         int sameCards = 1, sameCards2 = 1;
